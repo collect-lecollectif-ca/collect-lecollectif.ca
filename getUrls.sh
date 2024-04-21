@@ -1,7 +1,9 @@
-host="usherbrooke.ca"
-acceptedFiles=".html,.jpg,.pdf"
+#! /bin/bash
+
+host="lecollectif.ca"
+acceptedFiles=".html,.jpg,.jpeg,.png"
 outputDirectory=html
 
-url="https://www.usherbrooke.ca/coronavirus/"
-includedDirectories="coronavirus"
+url="https://lecollectif.ca/le-cas-des-integrations-de-biologie-nuances-et-perspectives/"
+includedDirectories="wp-content"
 wget -rD $host -k -l1 --accept $acceptedFiles --include $includedDirectories --directory-prefix=$outputDirectory -- $url
