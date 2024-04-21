@@ -11,7 +11,7 @@ on:
 
 jobs:
   download:
-    name: Get data from usherbrooke.ca
+    name: Get data from website
     runs-on: ubuntu-latest
 
     steps:
