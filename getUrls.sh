@@ -1,7 +1,7 @@
 #! /bin/bash
 
 host="lecollectif.ca"
-acceptedFiles=".html,.jpg,.jpeg,.png"
+acceptedFiles=".html"
 outputDirectory=html
 
 url="https://lecollectif.ca/le-cas-des-integrations-de-biologie-nuances-et-perspectives/"
